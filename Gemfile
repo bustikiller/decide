@@ -18,7 +18,7 @@ gem 'bootstrap', '~> 4.6.2'
 gem 'bootstrap-sass'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'bh', '>= 1.3.6'
-gem 'btgen', '>= 0.1.0'
+gem 'btgen', '>= 0.1.1'
 gem 'chartkick'
 
 gem 'devise', '>= 4.8.0'
