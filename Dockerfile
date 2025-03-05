@@ -1,4 +1,4 @@
-FROM ruby:3.1-alpine AS base
+FROM ruby:3.3.3-alpine AS base
 
 ENV GROUP=edm \
     USER=edm \
@@ -27,7 +27,7 @@ COPY . $DIR/
 
 RUN RAILS_ENV=production SECRET_KEY_BASE=1 bundle exec rails --trace assets:precompile assets:clean
 
-FROM ruby:3.1-alpine
+FROM ruby:3.3.3-alpine
 
 ENV GROUP=edm \
     USER=edm \
